@@ -34,3 +34,9 @@ function displayNotes() {
         noteList.appendChild(noteItem);
     });
 }
+
+// create a function to delete note after creating one
+function deleteNote(index) {
+    notes.splice(index, 1);
+    displayNotes();
+}
