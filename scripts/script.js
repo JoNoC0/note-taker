@@ -10,4 +10,5 @@ addNote.addEventListener('click', () => {
         displayNotes();
         note.value = '';
     }
-})
+});
+
